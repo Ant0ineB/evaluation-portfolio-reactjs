@@ -43,9 +43,33 @@
     <div>
       <h1>Bonjour, je suis John Doe</h1>
       <h2>Dévellopeur web full stack</h2>
-      <button type="button" class="btn btn-info">
-        <a href="#" role="button">Link</a>
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        En savoir plus
       </button>
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Mon profil Github</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="../src/images/Avatar.png" alt="Avatar">
+              <address>
+                <a href="https://api.github.com/users/github-john-doe" target="_blank"><img src="../src/logos/person.svg" alt="avatar"> John Doe</a>
+                <p><img src="../src/logos/geo-alt.svg" alt="Localisation"></p>
+                <p><img src="../src/logos/card-text.svg" alt="card text"> As we all know, John Doe's identity is unknown. I just wanted to contribute without being known.</p>
+                <p><img src="../src/logos/box.svg" alt="box"> Repositories : 1</p>
+                <p><img src="../src/logos/people.svg" alt="Followers"> Followers : 19</p>
+                <p><img src="../src/logos/people.svg" alt="Following"> Following : 0</p>
+              </address>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <div>
       <div>
