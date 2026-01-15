@@ -52,7 +52,7 @@ nav ul li a:hover{
 .a_propos{
     max-width: 450px;
 }
-h3{
+.h3_ul{
     border-bottom: 2px solid #0051FF;
    padding-bottom: 10px;
 }
@@ -159,13 +159,25 @@ input{
     background-color: #002794;
 }
 
-h2{
+.h2_ul{
     border-bottom: 2px solid #0051FF;
    padding-bottom: 10px;
 }
 .contact_link{
     text-decoration: none;
     color: black;
+}
+.ml_title{
+    display: flex;
+    flex-direction: column;
+    padding-left: 750px;
+    padding-right: 750px;
+    border-bottom: 2px solid #0051FF;
+}
+.accordion{
+    padding-bottom: 195px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 footer{
     display: flex;
