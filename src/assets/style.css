@@ -109,6 +109,64 @@ h3{
 .card :hover{
     background-color: #efefef;
 }
+.Contact_title{
+    display: flex;
+    flex-direction: column;
+    padding-left: 525px;
+    padding-right: 525px;
+    text-align: center;
+
+}
+.contact_offer{
+    border-bottom: 5px solid #0051FF;
+    padding-bottom: 10px;
+}
+.map{
+    max-width: 450px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+input{
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+.contact_info{
+    display: flex;
+    flex-direction: row;
+    max-width: 900px;
+    justify-content: space-evenly;
+    padding-bottom: 200px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 1px outset whitesmoke;
+    box-shadow: 3px 3px 3px 3px whitesmoke;
+    border-radius: 10px;
+}
+.submit{
+    background-color: #0051FF;
+    color: #fff;
+    border-radius: 5px;
+    max-width: fit-content;
+    margin-left: 110px;
+    border-width: 1px;
+}
+.submit:hover{
+    background-color: #002794;
+}
+
+h2{
+    border-bottom: 2px solid #0051FF;
+   padding-bottom: 10px;
+}
+.contact_link{
+    text-decoration: none;
+    color: black;
+}
 footer{
     display: flex;
     flex-direction: row;
