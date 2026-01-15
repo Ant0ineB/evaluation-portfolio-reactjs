@@ -85,6 +85,30 @@ h3{
     color: #0051FF;
     margin: auto;
 }
+.Portfolio_title{
+    display: flex;
+    flex-direction: column;
+    padding-left: 775px;
+    padding-right: 775px;
+
+}
+.Portfolio_offer{
+    border-bottom: 5px solid #0051FF;
+    padding-bottom: 10px;
+}
+.portfolio_cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.card :hover{
+    background-color: #efefef;
+}
 footer{
     display: flex;
     flex-direction: row;
