@@ -179,12 +179,25 @@ input{
     padding-left: 200px;
     padding-right: 200px;
 }
+.modal-header{
+    background-color: #2C2C30;
+    color: #fff;
+}
+.modal-body{
+    display: flex;
+    flex-direction: column;
+    background-color: #2C2C30;
+    color: #fff;
+}
+.modal-footer{
+    background-color: #2C2C30;
+}
 footer{
     display: flex;
     flex-direction: row;
     flex-basis: 30%;
     justify-content: space-around;
-    background-color: black;
+    background-color: #2C2C30;
     font-family: Nunito Sans;
     color: #fff;
     position:static;
